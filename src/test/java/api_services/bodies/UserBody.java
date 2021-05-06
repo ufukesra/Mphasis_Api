@@ -37,8 +37,8 @@ public class UserBody {
 
     }
 
-    public UserBody(String name, String username,String email,List<Map<String,Object>> address, String phone,
-                    String website, List<Map<String,String>> company){
+    public UserBody(String name, String username,String email,Map<String,Object> address, String phone,
+                    String website, Map<String,Object> company){
         this.name=name;
         this.username=username;
         this.email=email;
@@ -57,14 +57,14 @@ public class UserBody {
         geo.put("lng",lng);
 
 
-        Map<String,Object> map1= new HashMap<>();
+         address= new HashMap<>();
 
-        map1.put("street",street);
-        map1.put("suite",suite);
-        map1.put("city",city);
-        map1.put("zipcode",zipcode);
-        map1.put("geo",geo);
-        address.add(map1);
+        address.put("street",street);
+        address.put("suite",suite);
+        address.put("city",city);
+        address.put("zipcode",zipcode);
+        address.put("geo",geo);
+
     }
 
     public void setCompany(String companyName, String catchPhrase, String bs ){
@@ -75,23 +75,22 @@ public class UserBody {
     "bs": "harness real-time e-markets"
          */
 
-        Map<String,String> map= new HashMap<>();
+         company= new HashMap<>();
 
-        map.put("name",companyName);
-        map.put("catchPhrase",catchPhrase);
-        map.put("bs",bs);
+        company.put("name",companyName);
+        company.put("catchPhrase",catchPhrase);
+        company.put("bs",bs);
 
-       company.add(map);
     }
 
 private String name;
 private String username;
 private String email;
-private List<Map<String,Object>> address= new ArrayList<>();
+private Map<String,Object> address= new HashMap<>();
 
 private String phone;
 private String website;
-private List<Map<String,String>> company= new ArrayList<>();
+private Map<String,Object> company= new HashMap<>();
 
 
     public String getName() {
@@ -118,7 +117,7 @@ private List<Map<String,String>> company= new ArrayList<>();
         this.email = email;
     }
 
-    public List<Map<String, Object>> getAddress() {
+    public Map<String, Object> getAddress() {
         return address;
     }
 
@@ -142,7 +141,7 @@ private List<Map<String,String>> company= new ArrayList<>();
         this.website = website;
     }
 
-    public List<Map<String, String>> getCompany() {
+    public Map<String, Object> getCompany() {
         return company;
     }
 
