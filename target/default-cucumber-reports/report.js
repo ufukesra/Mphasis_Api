@@ -27,7 +27,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "CommentsStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
+  "location": "CommentStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
 });
 formatter.result({
   "status": "passed"
@@ -37,7 +37,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CommentsStepDef.verify_comment_list_with_response_headers_and_status_code_and_size(Integer,Integer)"
+  "location": "CommentStepDef.verify_comment_list_with_response_headers_and_status_code_and_size(Integer,Integer)"
 });
 formatter.result({
   "status": "passed"
@@ -99,7 +99,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "CommentsStepDef.create_a_new_comment_payload_and_send_a_post_request_to_endpoint(String)"
+  "location": "CommentStepDef.create_a_new_comment_payload_and_send_a_post_request_to_endpoint(String)"
 });
 formatter.result({
   "status": "passed"
@@ -109,7 +109,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CommentsStepDef.verify_create_new_comment_response_with_status_code_and_body(Integer)"
+  "location": "CommentStepDef.verify_create_new_comment_response_with_status_code_and_body(Integer)"
 });
 formatter.result({
   "status": "passed"
@@ -135,7 +135,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "CommentsStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
+  "location": "CommentStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
 });
 formatter.result({
   "status": "passed"
@@ -145,7 +145,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CommentsStepDef.validate_the_comment_body_with_schema_validation()"
+  "location": "CommentStepDef.validate_the_comment_body_with_schema_validation()"
 });
 formatter.result({
   "status": "passed"

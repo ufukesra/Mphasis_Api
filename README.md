@@ -1,12 +1,14 @@
 
 Full Name : Ufuk Sahinduran
 
-Project Title : JsonPlaceHolder.Typicode(posts/comments/users)  API testing framework for Mphasis
+Project Title : JsonPlaceHolder.Typicode(posts/comments/users)  API testing framework for Mphasis.
 
 Installation guide: This is a maven project. so It's assumed that the host running this code have Java and maven
 installed and JAVA_HOME already set. Here is the guide for maven installation just in
 link : https://maven.apache.org/install.html Project get all dependencies from maven repository.
-So no additional installation needed.
+So no additional installation needed. The tools are managed by adding dependencies' to pom.xml file which are 
+for this framework and test.
+
 pom.xml file:
 Below are the dependencies are being used for this project :
 Cucumber Java, Cucumber JUnit, RestAssured library, Faker, SchemaValidator,Jackson, Cucumber Reports plugins.
@@ -49,7 +51,7 @@ resources: this directory is for storing feature file which contains my scenario
     comments.feature file: Written test scenario and steps and storing the data for comments endpoint by using Gherkin.
     post.feature file: Written test scenario and steps and storing the data for post endpoint by using Gherkin.
     user.feature file: Written test scenario and steps and storing the data for user endpoint by using Gherkin.
-Test Scenarios: created based on BDD by using Gherkin syntax
+Test Scenarios: created them based on BDD by using Gherkin syntax
 
  commentsBody.json file: storing comment json data in order to validate specific comment response body.
  postBody.json file: storing post json data in order to validate specific post response body.

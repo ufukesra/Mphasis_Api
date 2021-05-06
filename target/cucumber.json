@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-05-06T00:28:21.965Z",
+        "start_timestamp": "2021-05-06T01:18:13.461Z",
         "before": [
           {
             "result": {
-              "duration": 947131633,
+              "duration": 1050568040,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 242997,
+              "duration": 269954,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1089203736,
+              "duration": 1139551074,
               "status": "passed"
             },
             "line": 5,
@@ -47,13 +47,13 @@
                   "offset": 22
                 }
               ],
-              "location": "CommentsStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
+              "location": "CommentStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 631517712,
+              "duration": 881978200,
               "status": "passed"
             },
             "line": 6,
@@ -69,7 +69,7 @@
                   "offset": 71
                 }
               ],
-              "location": "CommentsStepDef.verify_comment_list_with_response_headers_and_status_code_and_size(Integer,Integer)"
+              "location": "CommentStepDef.verify_comment_list_with_response_headers_and_status_code_and_size(Integer,Integer)"
             },
             "keyword": "Then "
           }
@@ -81,11 +81,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:24.702Z",
+        "start_timestamp": "2021-05-06T01:18:16.663Z",
         "before": [
           {
             "result": {
-              "duration": 317828,
+              "duration": 170778,
               "status": "passed"
             },
             "match": {
@@ -100,7 +100,7 @@
         "after": [
           {
             "result": {
-              "duration": 306029,
+              "duration": 262063,
               "status": "passed"
             },
             "match": {
@@ -113,7 +113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 143311111,
+              "duration": 124206231,
               "status": "passed"
             },
             "line": 9,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 2148145,
+              "duration": 2255220,
               "status": "passed"
             },
             "line": 10,
@@ -155,11 +155,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:24.854Z",
+        "start_timestamp": "2021-05-06T01:18:16.795Z",
         "before": [
           {
             "result": {
-              "duration": 606580,
+              "duration": 137661,
               "status": "passed"
             },
             "match": {
@@ -174,7 +174,7 @@
         "after": [
           {
             "result": {
-              "duration": 547883,
+              "duration": 567779,
               "status": "passed"
             },
             "match": {
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 686622145,
+              "duration": 654830587,
               "status": "passed"
             },
             "line": 13,
@@ -199,13 +199,13 @@
                   "offset": 56
                 }
               ],
-              "location": "CommentsStepDef.create_a_new_comment_payload_and_send_a_post_request_to_endpoint(String)"
+              "location": "CommentStepDef.create_a_new_comment_payload_and_send_a_post_request_to_endpoint(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 29274091,
+              "duration": 30918603,
               "status": "passed"
             },
             "line": 14,
@@ -217,7 +217,7 @@
                   "offset": 52
                 }
               ],
-              "location": "CommentsStepDef.verify_create_new_comment_response_with_status_code_and_body(Integer)"
+              "location": "CommentStepDef.verify_create_new_comment_response_with_status_code_and_body(Integer)"
             },
             "keyword": "Then "
           }
@@ -229,11 +229,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:25.576Z",
+        "start_timestamp": "2021-05-06T01:18:17.487Z",
         "before": [
           {
             "result": {
-              "duration": 168957,
+              "duration": 163696,
               "status": "passed"
             },
             "match": {
@@ -248,7 +248,7 @@
         "after": [
           {
             "result": {
-              "duration": 217371,
+              "duration": 272455,
               "status": "passed"
             },
             "match": {
@@ -261,7 +261,7 @@
         "steps": [
           {
             "result": {
-              "duration": 120583363,
+              "duration": 126349641,
               "status": "passed"
             },
             "line": 17,
@@ -273,19 +273,19 @@
                   "offset": 22
                 }
               ],
-              "location": "CommentsStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
+              "location": "CommentStepDef.send_a_get_request_to_endpoint_to_get_comments(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 251413886,
+              "duration": 368947836,
               "status": "passed"
             },
             "line": 18,
             "name": "validate the comment body with schema validation",
             "match": {
-              "location": "CommentsStepDef.validate_the_comment_body_with_schema_validation()"
+              "location": "CommentStepDef.validate_the_comment_body_with_schema_validation()"
             },
             "keyword": "Then "
           }
@@ -317,11 +317,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-05-06T00:28:25.951Z",
+        "start_timestamp": "2021-05-06T01:18:17.987Z",
         "before": [
           {
             "result": {
-              "duration": 1648357,
+              "duration": 631502,
               "status": "passed"
             },
             "match": {
@@ -336,7 +336,7 @@
         "after": [
           {
             "result": {
-              "duration": 159851,
+              "duration": 160078,
               "status": "passed"
             },
             "match": {
@@ -349,7 +349,7 @@
         "steps": [
           {
             "result": {
-              "duration": 111958520,
+              "duration": 114103272,
               "status": "passed"
             },
             "line": 5,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 32930334,
+              "duration": 35458961,
               "status": "passed"
             },
             "line": 6,
@@ -395,11 +395,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:26.103Z",
+        "start_timestamp": "2021-05-06T01:18:18.145Z",
         "before": [
           {
             "result": {
-              "duration": 517710,
+              "duration": 98716,
               "status": "passed"
             },
             "match": {
@@ -414,7 +414,7 @@
         "after": [
           {
             "result": {
-              "duration": 153625,
+              "duration": 162166,
               "status": "passed"
             },
             "match": {
@@ -427,7 +427,7 @@
         "steps": [
           {
             "result": {
-              "duration": 108775744,
+              "duration": 95413865,
               "status": "passed"
             },
             "line": 9,
@@ -445,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 255420,
+              "duration": 251966,
               "status": "passed"
             },
             "line": 10,
@@ -469,11 +469,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:26.215Z",
+        "start_timestamp": "2021-05-06T01:18:18.243Z",
         "before": [
           {
             "result": {
-              "duration": 205080,
+              "duration": 107246,
               "status": "passed"
             },
             "match": {
@@ -488,7 +488,7 @@
         "after": [
           {
             "result": {
-              "duration": 188277,
+              "duration": 193373,
               "status": "passed"
             },
             "match": {
@@ -501,7 +501,7 @@
         "steps": [
           {
             "result": {
-              "duration": 283501125,
+              "duration": 204577818,
               "status": "passed"
             },
             "line": 13,
@@ -519,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 18977031,
+              "duration": 16760626,
               "status": "passed"
             },
             "line": 14,
@@ -543,11 +543,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:26.520Z",
+        "start_timestamp": "2021-05-06T01:18:18.466Z",
         "before": [
           {
             "result": {
-              "duration": 83123,
+              "duration": 218230,
               "status": "passed"
             },
             "match": {
@@ -562,7 +562,7 @@
         "after": [
           {
             "result": {
-              "duration": 151537,
+              "duration": 265770,
               "status": "passed"
             },
             "match": {
@@ -575,7 +575,7 @@
         "steps": [
           {
             "result": {
-              "duration": 104602327,
+              "duration": 92307136,
               "status": "passed"
             },
             "line": 17,
@@ -593,7 +593,7 @@
           },
           {
             "result": {
-              "duration": 5479235,
+              "duration": 5200139,
               "status": "passed"
             },
             "line": 18,
@@ -631,11 +631,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-05-06T00:28:26.632Z",
+        "start_timestamp": "2021-05-06T01:18:18.568Z",
         "before": [
           {
             "result": {
-              "duration": 488707,
+              "duration": 204629,
               "status": "passed"
             },
             "match": {
@@ -650,7 +650,7 @@
         "after": [
           {
             "result": {
-              "duration": 178618,
+              "duration": 141924,
               "status": "passed"
             },
             "match": {
@@ -663,7 +663,7 @@
         "steps": [
           {
             "result": {
-              "duration": 91223819,
+              "duration": 104664797,
               "status": "passed"
             },
             "line": 7,
@@ -681,7 +681,7 @@
           },
           {
             "result": {
-              "duration": 31375470,
+              "duration": 25801495,
               "status": "passed"
             },
             "line": 8,
@@ -709,11 +709,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:26.762Z",
+        "start_timestamp": "2021-05-06T01:18:18.706Z",
         "before": [
           {
             "result": {
-              "duration": 84510,
+              "duration": 100087,
               "status": "passed"
             },
             "match": {
@@ -728,7 +728,7 @@
         "after": [
           {
             "result": {
-              "duration": 141666,
+              "duration": 202645,
               "status": "passed"
             },
             "match": {
@@ -741,7 +741,7 @@
         "steps": [
           {
             "result": {
-              "duration": 96447032,
+              "duration": 99085379,
               "status": "passed"
             },
             "line": 11,
@@ -759,7 +759,7 @@
           },
           {
             "result": {
-              "duration": 332775,
+              "duration": 354497,
               "status": "passed"
             },
             "line": 12,
@@ -783,11 +783,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:26.861Z",
+        "start_timestamp": "2021-05-06T01:18:18.808Z",
         "before": [
           {
             "result": {
-              "duration": 94434,
+              "duration": 90133,
               "status": "passed"
             },
             "match": {
@@ -802,7 +802,7 @@
         "after": [
           {
             "result": {
-              "duration": 349591,
+              "duration": 207235,
               "status": "passed"
             },
             "match": {
@@ -815,7 +815,7 @@
         "steps": [
           {
             "result": {
-              "duration": 284614970,
+              "duration": 343168337,
               "status": "passed"
             },
             "line": 15,
@@ -833,7 +833,7 @@
           },
           {
             "result": {
-              "duration": 31107434,
+              "duration": 33445942,
               "status": "passed"
             },
             "line": 16,
@@ -857,11 +857,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:27.180Z",
+        "start_timestamp": "2021-05-06T01:18:19.187Z",
         "before": [
           {
             "result": {
-              "duration": 216308,
+              "duration": 350944,
               "status": "passed"
             },
             "match": {
@@ -876,7 +876,7 @@
         "after": [
           {
             "result": {
-              "duration": 170152,
+              "duration": 686983,
               "status": "passed"
             },
             "match": {
@@ -889,7 +889,7 @@
         "steps": [
           {
             "result": {
-              "duration": 101261995,
+              "duration": 90549335,
               "status": "passed"
             },
             "line": 19,
@@ -908,7 +908,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code \u003c200\u003e but was \u003c404\u003e.\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\n\tat jdk.internal.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)\n\tat io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\n\tat api_services.Users.verifyCreatedUserwith_Id_And_StatusCode(Users.java:100)\n\tat step_def.UserStepDef.verify_user_with_id_and_status_code(UserStepDef.java:51)\n\tat ✽.verify user with id 11 and status code 200(file:src/test/resources/features/user.feature:20)\n",
-              "duration": 12980770,
+              "duration": 13692745,
               "status": "failed"
             },
             "line": 20,
@@ -936,11 +936,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:27.304Z",
+        "start_timestamp": "2021-05-06T01:18:19.305Z",
         "before": [
           {
             "result": {
-              "duration": 249181,
+              "duration": 605954,
               "status": "passed"
             },
             "match": {
@@ -955,7 +955,7 @@
         "after": [
           {
             "result": {
-              "duration": 211583,
+              "duration": 192105,
               "status": "passed"
             },
             "match": {
@@ -968,7 +968,7 @@
         "steps": [
           {
             "result": {
-              "duration": 97506283,
+              "duration": 106556318,
               "status": "passed"
             },
             "line": 23,
@@ -986,7 +986,7 @@
           },
           {
             "result": {
-              "duration": 5886042,
+              "duration": 7102692,
               "status": "passed"
             },
             "line": 24,
@@ -1004,11 +1004,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-06T00:28:27.410Z",
+        "start_timestamp": "2021-05-06T01:18:19.422Z",
         "before": [
           {
             "result": {
-              "duration": 389761,
+              "duration": 333299,
               "status": "passed"
             },
             "match": {
@@ -1023,7 +1023,7 @@
         "after": [
           {
             "result": {
-              "duration": 231400,
+              "duration": 188758,
               "status": "passed"
             },
             "match": {
@@ -1036,7 +1036,7 @@
         "steps": [
           {
             "result": {
-              "duration": 462993035,
+              "duration": 398107896,
               "status": "passed"
             },
             "line": 27,
@@ -1055,7 +1055,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c500\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat api_services.Users.verifyErrorWithStatusCode(Users.java:123)\n\tat step_def.UserStepDef.verify_error_code_with_status_code(UserStepDef.java:70)\n\tat ✽.verify error code with status code 400(file:src/test/resources/features/user.feature:28)\n",
-              "duration": 555415,
+              "duration": 416196,
               "status": "failed"
             },
             "line": 28,
